@@ -1,0 +1,23 @@
+{
+    "name": "thamtech/yii2-multilevel-cache",
+    "description": "A multi-level cache component for Yii2",
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Tyler Ham",
+            "email": "tyler@thamtech.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.6.0",
+        "yiisoft/yii2": ">=2.0.14 <2.1"
+    },
+    "autoload": {
+        "psr-4": { "thamtech\\caching\\multilevel\\": "src/" }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.1 || ^5.0"
+    }
+}
